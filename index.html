@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rukobank</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!-- <h1 class="cajero__titulo">Ruko bank</h1>
+    <hr>
+
+    <img class="img__cajero" src="./img/bank.png" alt="">
+
+    <div class="button__container">
+        
+        <button onclick="administrador()" type="button">administrador</button>
+
+        <button onclick="cliente()" type="button">cliente</button>
+
+        
+
+    </div> -->
+    
+    
+    <h1 class="cajero__titulo">Ruko bank</h1>
+    <hr>
+
+    <img class="img__cajero" src="./img/bank.png" alt="">
+
+    <div class="container__form">
+        <form id="formulario" class="form__container" action="">
+            <h2 class="form__title">Login</h2>
+     
+            <input class="input__documento" id="documentoU" type="number" placeholder="documento">
+            <input class="input__contraseña" id="passwordU" type="password" placeholder="contraseña">
+     
+            <button onclick="validarIngreso()" class="btn__ingresar" type="button">Ingresar
+            </button>
+            <button class="btn__volver" onclick="Limpiar()" type="button">Limpiar</button>
+     
+     
+        </form>
+  </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+       'juan pablo',
+        documento:'3',
+        password: '3',
+        tipoDeUsuario: '2'
+    
+   
+        nombre: 'isabela',
+        documento: '4',
+        password: '4',
+        tipoDeUsuario: '2'
+    
+   
+        nombre: 'gabriel',
+        documento: '1',
+        password: '1',
+        tipoDeUsuario: '1'
+    
+   
+        nombre: 'monica',
+        documento: '2',
+        password: '2',
+        tipoDeUsuario: '1'

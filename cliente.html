@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cliente</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <h1 class="cajero__titulo">Ruko bank</h1>
+    <hr>
+
+    <img class="img__cajero" src="./img/bank.png" alt="">
+
+    <div class="container__form">
+        <form class="form__container" action="">
+            <h2 class="form__title">Cliente</h2>
+
+
+
+            <label for="cantidadRetirar">ingrese el valor a retirar</label>
+            <input id="dineroARetirar" class="input__documento" name="cantidadRetirar" type="number">
+            
+            
+            <button type="button" onclick="retirarDinero()" class="btn__ingresar" >completar accion</button>
+            <button type="button" onclick="salir()" class="btn__ingresar" >salir</button>
+     
+        </form>
+  </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
